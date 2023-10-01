@@ -1,0 +1,32 @@
+.barChartContainer {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 20px 26px;
+}
+
+.legendContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.legend{
+    color: #343434B2;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.barChart {
+    flex-grow: 5;
+}

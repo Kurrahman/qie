@@ -1,0 +1,82 @@
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #F9F9FC;
+}
+
+.tableHead {
+    background-color: #F9F9FC;
+    text-align: start;
+    padding: 15px;
+}
+
+.tableCell {
+    padding: 10px;
+}
+
+.active {
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    background: rgba(153, 239, 203, 0.26);
+    color: #198564;
+}
+
+.inactive {
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    background: rgba(163, 168, 173, 0.26);
+    color: #A3A8AD;
+}
+
+.editContainer {
+    padding: 5px;
+    border-radius: 6px;
+    background: #2B2D2F;
+}
+
+.removeContainer {
+    padding: 5px;
+    border-radius: 6px;
+    background: #F93F40;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addUserContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #198564;
+    color: #FFFFFF;
+    font-size: small;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.currentPage {
+    background-color: #198564;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.pageNumber {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 40px; */
+    align-items: center;
+    background:  #198564;
+    padding: 10px 15px;
+}
+
+.topLeft {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.topRight {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.user {
+    align-items: center;
+}
+
+.userName {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.email {
+    font-size: 12px;
+    opacity: 0.6;
+    color: #FFFFFF;
+}

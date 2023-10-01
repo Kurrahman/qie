@@ -1,0 +1,18 @@
+{
+    "charts": {
+        "inactive": "/charts-inactive.png",
+        "active": "/charts-active.png"
+    },
+    "sales": {
+        "inactive": "/sales-inactive.png",
+        "active": "/sales-active.png"
+    },
+    "user": {
+        "inactive": "/user-management-inactive.png",
+        "active": "/user-management-active.png"
+    },
+    "chevron": {
+        "inactive": "/sidebar-chevron-inactive.png",
+        "active": "/sidebar-chevron-active.png"
+    }
+}

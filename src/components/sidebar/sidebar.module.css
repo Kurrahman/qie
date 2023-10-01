@@ -1,0 +1,48 @@
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.sectionName {
+    color: #A3A8AD;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: row;
+    padding: 11px 13px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.selectedMenuItem {
+    display: flex;
+    flex-direction: row;
+    padding: 11px 13px;
+    gap: 10px;
+    border-radius: 3px;
+    background: #198564;
+    cursor: default;
+}
+
+.menuLabel{
+    font-size: 14px;
+}
+
+.selectedMenuLabel{
+    color: #FFFFFF;
+    font-size: 14px;
+}

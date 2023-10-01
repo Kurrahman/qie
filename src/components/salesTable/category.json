@@ -1,0 +1,10 @@
+{
+    "categories" : [
+        {
+            "id": 1,
+            "name": "TECHNOLOGY",
+            "backgroundColor": "#7AB6FD42",
+            "textColor": "#195CA8"
+        }
+    ]
+}

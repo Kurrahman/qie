@@ -1,0 +1,46 @@
+.background {
+    background-color: #FFFFFF;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboardContent {
+    flex-grow: 2;
+    padding: 20px 35px;
+}
+
+.charts {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.contentHeader {
+    margin-bottom: 20px;
+}
+
+.contentTitle {
+    color:#03050B;
+
+    /* Header 2/Large (Desktop) */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contentSubtitle {
+    color: #03050B;
+
+    /* Body/Default */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 153.333% */
+    opacity: 0.55;
+}

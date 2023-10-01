@@ -1,0 +1,41 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input {
+    border-radius: 7px;
+    background: #EFEFEF;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.submitContainer {
+    border-radius: 7px;
+    background: #198564;
+    text-align: center;
+    padding: 10px;
+}
